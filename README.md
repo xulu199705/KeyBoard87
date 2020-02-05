@@ -10,7 +10,7 @@
 
 最初决定做键盘是在1月初的时候。当然，一开始想做的并不是键盘，而是一个USB-to-Bluetooth的转换器（如下图），这样就可以在iPad上用机械键盘了。
 
-![USB-to-Bluetooth Convertor](pic\other\bt_connector.jpg)
+![USB-to-Bluetooth Convertor](pic\\other\\bt_connector.jpg)
 
 转换器的主控同样是准备采用STM32，毕竟是STM32作为我比较熟悉的MCU，不仅功能强大，而且有过几次基于STM32系统的制作经验。
 
@@ -66,7 +66,7 @@ STM32有四个时钟源：
 
 | USB分类 | USB A-type | USB B-type | miniUSB | microUSB | C-type |
 | --- | --- | --- | --- | --- | --- |
-| 图片 | ![](pic\usb_type\type_a.jpg) | ![](pic\usb_type\type_b.jpg) | ![](pic\usb_type\miniusb.jpg) | ![](pic\usb_type\microusb.jpg) | ![](pic\usb_type\type_c.jpg) |
+| 图片 | ![](pic\\usb_type\\type_a.jpg) | ![](pic\\usb_type\\type_b.jpg) | ![](pic\\usb_type\\miniusb.jpg) | ![](pic\\usb_type\\microusb.jpg) | ![](pic\\usb_type\\type_c.jpg) |
 
 现在市面上键线分离的机械键盘一般用的是miniUSB或microUSB接口。最近半年来，USB C-type特别流行。这个接口不仅提供大功率传输，而且支持正反随便插，大大降低了插第二次的郁闷。机械键盘就决定用USB C-type。
 
@@ -74,7 +74,7 @@ STM32有四个时钟源：
 
 在选择机械键盘的轴体时，因为正在使用的ikbc C87，所以直接就决定用樱桃的MX轴。常用的MX轴有黑青茶红四种，茶轴肯定是我的首选，不管用做什么，都可以满足要求。
 
-MX轴的封装尺寸：[PDF](Reference\Cherry_MX\Cherry_MX_sw.pdf)
+MX轴的封装尺寸：[PDF](Reference\\Cherry_MX\\Cherry_MX_sw.pdf)
 
 ### 键盘布局
 
@@ -82,18 +82,18 @@ MX轴的封装尺寸：[PDF](Reference\Cherry_MX\Cherry_MX_sw.pdf)
 )可以将需要的布局信息生成一堆文本，将文本复制到[这里](http://builder.swillkb.com/)，生成定位板文件，方面在PCB中定位每个键轴的位置。
 
 布线图
-![](pic\pcb\pcb_2d_bottomlayer.png)
+![](pic\\pcb\\pcb_2d_bottomlayer.png)
 
 |3D顶部视图||
 | --- | --- |
-| ![](pic\pcb\2.PNG) | ![](pic\pcb\pcb_3d_top.png) |
+| ![](pic\\pcb\\2.PNG) | ![](pic\\pcb\\pcb_3d_top.png) |
 
 |3D底部视图||
 | --- | --- |
-| ![](pic\pcb\1.PNG) | ![](pic\pcb\pcb_3d_bottom.png) |
+| ![](pic\\pcb\\1.PNG) | ![](pic\\pcb\\pcb_3d_bottom.png) |
 
 LOGO视图
-![](pic\pcb\pcb_3d_logo.png)
+![](pic\\pcb\\pcb_3d_logo.png)
 
 -----
 
@@ -103,7 +103,7 @@ PCB打样就交给嘉立创了，下单系统虽然UI做的不怎么样，但系
 
 下单大概四天，板子就寄到了。一层一层的红色气泡纸把五块板子包得严严实实。
 
-![](pic\pcb\pcb_package.jpg)
+![](pic\\pcb\\pcb_package.jpg)
 
 -----
 
