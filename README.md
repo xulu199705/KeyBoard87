@@ -78,8 +78,7 @@ MX轴的封装尺寸：[PDF](Reference/Cherry_MX/Cherry_MX_sw.pdf)
 
 ### 键盘布局
 
-键盘布局选择和手头使用的ikbc c87一样的87键布局，在[这里](http://www.keyboard-layout-editor.com/
-)可以将需要的布局信息生成一堆文本，将文本复制到[这里](http://builder.swillkb.com/)，生成定位板文件，方面在PCB中定位每个键轴的位置。
+键盘布局选择和手头使用的ikbc c87一样的87键布局，在[这里](http://www.keyboard-layout-editor.com/)可以将需要的布局信息生成一堆文本，将文本复制到[这里](http://builder.swillkb.com/)，生成定位板文件，方面在PCB中定位每个键轴的位置。
 
 布线图
 ![](pic/pcb/pcb_2d_bottomlayer.png?raw=true)
