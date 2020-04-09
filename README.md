@@ -6,7 +6,7 @@ This repository("`KeyBoard87`") is where I develop a 87-key keyboard with Cherry
 这个仓库包含以下内容：
 1. [PCB项目文件](./pcb/v1.0/KeyBoard.PrjPcb)，包括原理图、PCB和元器件库(进行中);
 2. MCU代码(进行中);
-3. 项目设计参考资料。
+3. [项目设计参考资料](./Reference/)。
 
 This repository contains:
 1. [PCB project files](./pcb/v1.0/KeyBoard.PrjPcb) including schematic-design, PCB-design and footprint library (work in progress).
