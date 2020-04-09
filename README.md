@@ -30,7 +30,7 @@ This source code is available to everyone under the standard [MIT license](./LIC
 
 还有半年就要毕业了，在做毕业设计之余，我准备客制化一个87键机械键盘。键盘用STM32做主控，USB type-C做接口，以基本操作为最低目标。当然了，由于主专业的毕业设计和第二专业的毕业论文，留给这个项目的时间不会太多，项目的开发周期会(geng)有(xin)半(wan)年(quan)之(sui)久(yuan)。
 
-**详细介绍见[我的博客](https://www.blueschwarz.top/embedded/2019/keyboard_3.html)**
+详细介绍见[**我的博客**](https://www.blueschwarz.top/embedded/2019/keyboard_3.html)或[**项目介绍**](./prj_Description.md)
 
 ## 安装与使用/Install & Usage
 
